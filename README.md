@@ -47,6 +47,19 @@ Each computer will be represented by document within CouchDB database. It will h
 }
 ```
 
+If you update the particular document, the previous versions of it will be available under previous revision numbers.
+You can get all those numbers by querying database either by URL or by command line.
+After navigating to url `http://user:pass@localhost:7777/database/document_id?revs_info=true` you will get json output that will contain:
+```
+"_revs_info":[
+	{"rev":"4-6104f686dd699fb5ed015fab75b1bac5","status":"available"},
+	{"rev":"3-7a2d436767eee419f94b086b071a6a6c","status":"available"},
+	{"rev":"2-09209338dc434a3f7d0d9aea88d5e533","status":"available"},
+	{"rev":"1-ab4d3fc74b8c50733fa7a5cae30238ce","status":"available"}
+]
+```
+
+
 ### Video recording...
 ... of execution can be viewed [here (webm file)](https://raw.githubusercontent.com/mnmnc/img/master/out2.webm).
 
