@@ -14,7 +14,8 @@ Computer status export from SEP contains a lot of data. Some of the fileds seems
 ### Database document
 Each computer will be represented by document within CouchDB database. It will have a following structure:
 
-```{
+```
+{
    "_id": "SomeComputerName",
    "_rev": "1-5e897671493625c4429e7f4679731a10",
    "osnet": {
@@ -43,7 +44,8 @@ Each computer will be represented by document within CouchDB database. It will h
        "last_status_change": 1405310393,
        "last_scan": 1404793803
    }
-}```
+}
+```
 
 ### Video recording...
 ... of execution can be viewed [here (webm file)](https://raw.githubusercontent.com/mnmnc/img/master/out2.webm).
