@@ -22,3 +22,7 @@ Either: `python3 pyro.py filename.csv` or `./pyro.py filename.csv`
 You should change the values in the line 375:
 
   `couch = MyCouch( "1.0.0.2", "7777", "username", "password", "database_name")`
+
+### Customization
+
+I presume one might have different demands from the script and would want to load different values to the database. You can modify the functuon from line 191 `build_dictionary_structure` to create your own JSON structure.
