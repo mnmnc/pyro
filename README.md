@@ -16,13 +16,7 @@ Computer status export from SEP contains a lot of data. Some of the fileds seems
 
 ### Usage
 
-Either:
-
-  - python3 pyro.py filename.csv
-
-or
-
-  - ./pyro.py filename.csv
+Either: `python3 pyro.py filename.csv` or `./pyro.py filename.csv`
 
 ### Variables
 You should change the values in the line 375:
