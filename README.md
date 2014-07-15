@@ -11,6 +11,9 @@ Computer status export from SEP contains a lot of data. Some of the fileds seems
 
 ![Pyro example execution](https://raw.githubusercontent.com/mnmnc/img/master/pyro1.jpg)
 
+or if you prefer live preview here is a [webm file](https://raw.githubusercontent.com/mnmnc/img/master/out2.webm).
+
+
 ### Database document
 Each computer will be represented by document within CouchDB database. It will have a following structure:
 
@@ -59,9 +62,6 @@ After navigating to url `http://user:pass@localhost:7777/database/document_id?re
 ]
 ```
 
-
-### Video recording...
-... of execution can be viewed [here (webm file)](https://raw.githubusercontent.com/mnmnc/img/master/out2.webm).
 
 ### Usage
 
