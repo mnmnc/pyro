@@ -12,4 +12,4 @@ Computer status export from SEP contains a lot of data. Some of the fileds seems
 ![Pyro example execution](https://raw.githubusercontent.com/mnmnc/img/master/pyro1.jpg)
 
 ## Video recording...
-... of execution can be viewed [https://raw.githubusercontent.com/mnmnc/img/master/out2.webm](here (webm file)).
+... of execution can be viewed [here (webm file)](https://raw.githubusercontent.com/mnmnc/img/master/out2.webm).
